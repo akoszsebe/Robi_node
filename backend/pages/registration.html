@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EJDB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="backend/pages/rest.js"></script>
+    <style>
+        .navbar {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" >Hello</a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li class="active" ><a href="/registration"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="/login"><span class="glyphicon glyphicon-log-out"></span> Login</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div style="background:#f274e5 !important" class="jumbotron text-center">
+        <h1>Registration </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="form-group">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="basic-addon1">Username</span>
+                        <input type="text" class="form-control" id="username">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="basic-addon1">Name</span>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+                     <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="basic-addon1">Last Name</span>
+                        <input type="text" class="form-control" id="lastname">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="password">Password</span>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon" id="basic-addon1">Ocupation</span>
+                        <input type="text" class="form-control" id="ocupation">
+                    </div>
+                </div>
+            </div>
+             <div class="col-sm-3">
+                 <br>
+                 <button type="button" class="btn btn-primary"  onclick="register();">Register</button>
+             </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

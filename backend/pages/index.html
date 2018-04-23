@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>EJDB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="backend/pages/rest.js"></script>
+    <style>
+        .navbar {
+            -webkit-border-radius: 0;
+            -moz-border-radius: 0;
+            border-radius: 0;
+        }
+    </style>
+</head>
+
+<script type="text/javascript">
+    window.onload = function(){
+        getlogdinUser();
+    }
+</script>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" >Hello</a>
+          </div>
+          <ul class="nav navbar-nav">
+              <li><a id="a_username"></a></li>
+            <li class="active"><a href="/">Home</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="/registration"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+              <li><a href="/logout"><span class="glyphicon glyphicon-log-out"></span> Logout</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div style="background:#f274e5 !important" class="jumbotron text-center">
+        <h1>Hello </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Kapd </h3>
+                
+            </div>
+            <div class="col-sm-4">
+                <h3>be</h3>
+               
+            </div>
+            <div class="col-sm-4">
+                <h3>a faszom</h3>
+                
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

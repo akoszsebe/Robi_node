@@ -1,0 +1,31 @@
+{
+  "name": "Robi",
+  "description": "Robi Backend",
+  "version": "0.0.2",
+  "engines": {
+    "node": "6.9.4",
+    "npm": "2.14.12"
+  },
+  "main": "index.js",
+  "keywords": [
+    "ejdb"
+  ],
+  "contributors": [
+    {
+      "name": "Robi",
+      "email": "mrpakular@yahoo.com",
+      "web": "https://github.com/"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "express-session":"^1.15.6",
+    "body-parser": "^1.17.1",
+    "http": "^0.0.0",
+    "request-json": "^0.6.2",
+    "ejdb": "^1.2.12-42"
+  }
+}
